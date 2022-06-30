@@ -1,0 +1,29 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "tdd programming",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon app.js",
+    "test":"jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibazregar/tdd.git"
+  },
+  "author": "ali bazregar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alibazregar/tdd/issues"
+  },
+  "homepage": "https://github.com/alibazregar/tdd#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
